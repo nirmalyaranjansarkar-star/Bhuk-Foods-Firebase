@@ -1,5 +1,4 @@
 
-
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, Link, useLocation, NavLink as RouterNavLink } from 'react-router-dom';
 import Home from './pages/Home';
@@ -16,7 +15,7 @@ import Refund from './pages/Refund';
 import Privacy from './pages/Privacy';
 import BhukLogo from './components/BhukLogo';
 import VisitorCounter from './components/VisitorCounter';
-// import Chatbot from '@/components/Chatbot';
+import Chatbot from '@/components/Chatbot';
 import { Language } from './types';
 import { TRANSLATIONS, POLICY_URLS, NO_MEAL_FORM_URL } from './constants';
 
@@ -263,7 +262,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
         
-        {/* <Chatbot /> */}
+        <Chatbot />
 
         <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
            <div className="container mx-auto px-4">
