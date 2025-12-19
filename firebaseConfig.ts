@@ -3,8 +3,10 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
-// Config updated for Project ID: bhuk-foods-firebase-20251219
-// Date: 2024-12-19
+// Instructions to get these values:
+// 1. Go to Firebase Console > Project Overview > Project Settings (Gear Icon)
+// 2. Scroll down to "Your apps" > Select "Web" (</>)
+// 3. Copy the 'firebaseConfig' object values below
 
 const firebaseConfig = {
   // TODO: Replace these placeholders with your actual config from Firebase Console
